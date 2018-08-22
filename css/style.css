@@ -1,0 +1,26 @@
+body {
+  background-color: white;
+  background-image: url(../img/emilia-home.jpg);
+  background-size: 80%;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+.menu {
+  font-size: 25px;
+  color: #888;
+  text-decoration: none;
+  list-style: none;
+}
+#titulo {
+  color: #000000;
+  background: rgb(255, 255, 255, 0.5);
+}
+a{
+  color:#000000;
+}
+#titulo {
+  font-size: 50px;
+}
+#nombre {
+  font-size: 30px;
+}

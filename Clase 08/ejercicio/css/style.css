@@ -1,0 +1,164 @@
+/* generales */
+a {
+ text-decoration: none;
+}
+body {
+  background-color: #F0EFE7;
+  font-size: 10px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  }
+h1 {
+  font-size: 5em;
+  text-align: center;
+  }
+h2 {
+  font-size: 3em;
+  text-align: center;
+    }
+h3 {
+  font-size: 3em;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+/* menu */
+.main-menu {
+  background-color: #C33221;
+  border-top: 1px solid #B20000;
+  border-bottom: 1px solid #B20000;
+  overflow: hidden;
+}
+header nav {
+  float: right;
+  overflow: hidden;
+}
+.logo {
+  padding: 2px 0;
+  margin: 5px;
+  float: left;
+  width: 100px;
+}
+.menu {
+  display: none;
+}
+.login li{
+  padding: 10px;
+  float: left;
+}
+.login li:first-child{
+  border-right: 1px solid #fff;
+}
+.login {
+  float: right;
+  overflow: hidden;
+  margin: 10px 0;
+}
+.login li a {
+  font-size: 1.5em;
+  color: #fff;
+  line-height: 0.2em;
+}
+.bars {
+  padding:14px;
+  font-size: 2em;
+  float: left;
+  color: #fff;
+}
+
+.social {
+  float: right;
+}
+.social i {
+  font-size: 2em;
+  margin-top: 4px;
+  padding: 4px;
+  color: rgba(0,0,0,0.4);
+}
+
+
+
+/* contenido */
+
+.bottom {
+background-color: #3C8DBC;
+border: 1px solid #3C8DBC;
+color: #fff;
+border-radius: 5px;
+width: 100%;
+text-transform: uppercase;
+font-size: 1.5em;
+padding: 5px 0;
+}
+
+.bottom:hover {
+background-color: #357ca5;
+border: 1px solid #357ca5;
+}
+
+.form {
+  margin:20px 10px;
+}
+.form input{
+  font-size: 1.5em;
+  margin: 10px 0;
+  width: 100%;
+}
+.form input:focus {
+  outline: none;
+  border: 2px solid #3C8DBC;
+}
+.form input::placeholder {
+  color: #CCC;
+}
+
+
+/* noticias */
+.titulo {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+.noticias img {
+  width: 100%;
+}
+.img-titulo {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+.img-description {
+  font-size: 2em;
+}
+.noticias {
+  position: relative;
+  margin-bottom: 10px;
+}
+.post-type {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom:0;
+  color: #fff;
+  padding: 10px;
+}
+.campana {
+  overflow: hidden;
+}
+.img-campana {
+  float: left;
+  margin-right: 10px;
+}
+.text-campana {
+
+}
+.tit-campana {
+  font-size: 3em;
+}

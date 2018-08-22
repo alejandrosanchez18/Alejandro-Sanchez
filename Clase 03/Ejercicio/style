@@ -1,0 +1,53 @@
+/*
+ familia tipogrÃ¡fica: Verdana, Geneva, sans-serif
+ Cuerpo central: 700px de ancho.
+ TamaÃ±o de fuente: 18px
+ Crear una carpeta "img", guardar la imagen adjunta allÃ­ e incluirla dentro del html en la ubicaciÃ³n del boceto.
+
+
+Titulo principal <h1>
+ TamaÃ±o de fuente: 37px
+ Interlineado: 46px
+ Familia tipogrÃ¡fica: tahoma, Helvetica, sans-serif
+ Color: #000000;
+
+SubtÃ­tulos
+ TamaÃ±o de fuente: 25px
+ Interlineado: 38px
+ Familia tipogrÃ¡fica: tahoma, Helvetica, sans-serif
+
+Bajada de tÃ­tulo
+ color:#666; Â¿Es lo mismo que poner #666666?
+ TamaÃ±o de fuente: 18px
+
+PÃ¡rrafos
+ color:#333
+ line-height: 27px;
+ TamaÃ±o de fuente: 18px
+//Hasta aquÃ­ aparece "tamaÃ±o de fuente 18px" 3 veces. Sabiendo que existe "herencia de propiedades" Â¿Te diste cuenta como usar "font-size:18px" una sola vez? */
+
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  width: 700px;
+  font-size: 18px;
+  color: red;
+}
+h1 {
+  font-size: 37px;
+  line-height: 46px;
+  font-family: tahoma, Helvetica, sans-serif;
+  color: #000000;
+}
+h3 {
+ font-size: 25px;
+ line-height: 38px;
+ font-family: tahoma, Helvetica, sans-serif;
+}
+p {
+  color: #333;
+  line-height: 27px;
+}
+.bajada {
+  color: #666;
+}

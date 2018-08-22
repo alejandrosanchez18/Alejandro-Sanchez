@@ -1,0 +1,42 @@
+/* Globales */
+* {
+  box-sizing: content-box;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+}
+
+/* Estilo */
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+.main {
+  overflow: hidden;
+  height: 800px;
+
+}
+.menu {
+  float: left;
+}
+.contenido {
+  float: left;
+  padding-left: 20px;
+  border-left: 1px #CCC;
+  width: 75%;
+}
+.menu ul {
+  text-decoration: none;
+  padding-right: 100px;
+  border-right: 1px #CCC;
+}
+
+#footer {
+  background: #CCC;
+}
+.imagen{
+  float: right;
+}

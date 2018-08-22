@@ -1,0 +1,28 @@
+/* Posiciona respecto al navegador o de su contenedor con position: relative.
+Si no hay right y bottom lo envia al fondo */
+* {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* Se mueve respecto al scroll */
+* {
+  position: fixed;
+}
+
+/* posiciona en adelante y atras respecto al numero que contenga */
+* {
+  z-index: 100;
+}
+
+/* position para superponer elementos *
+float para ordenar elementos/
+
+float > overflow: hidden;
+position: absolute > padre relativo.
+
+
+
+transform: translate(-50%. -50%);
+left: 50%;
